@@ -1,0 +1,69 @@
+{
+  "glassShell": {
+    "enabled": true,
+    "migrationVersion": 13,
+    "layoutVersion": 3,
+    "launcher": {
+      "sliceWidth": 180,
+      "expandedWidth": 668,
+      "sliceHeight": 332,
+      "sliceSpacing": 15,
+      "visibleCount": 100,
+      "cornerRadius": 20,
+      "expandedHeight": 332,
+      "skewAngle": 45,
+      "uiScale": 1,
+      "dimOpacity": 0.3,
+      "inactiveDimOpacity": 0.3
+    },
+    "switcher": {
+      "displayMode": "wheel",
+      "sliceWidth": 135,
+      "sliceExpandedWidth": 924,
+      "sliceHeight": 520,
+      "sliceSpacing": -22,
+      "sliceVisibleCount": 12,
+      "dimOpacity": 0.6,
+      "cardWidth": 1600,
+      "wheelOuterRadius": 520,
+      "wheelGap": 0,
+      "wheelStartAngle": 90,
+      "sliceExpandedHeight": 520,
+      "sliceSkewAngle": 3.8506388239107534,
+      "uiScale": 1,
+      "cornerRadius": 20,
+      "inactiveDimOpacity": 0.4,
+      "previewBlur": 10,
+      "hoverScale": 1.2
+    },
+    "wallpaperSelector": {
+      "sliceWidth": 180,
+      "expandedWidth": 468,
+      "sliceHeight": 332,
+      "sliceSpacing": 15,
+      "visibleCount": 100,
+      "cornerRadius": 20,
+      "sliceExpandedWidth": 924,
+      "sliceVisibleCount": 12,
+      "dimOpacity": 0.3,
+      "cardWidth": 1600,
+      "expandedHeight": 332,
+      "skewAngle": 0,
+      "uiScale": 1,
+      "inactiveDimOpacity": 0.3
+    },
+    "topPanel": {
+      "topInset": 0,
+      "height": 28,
+      "itemGap": 3,
+      "uiScale": 1,
+      "left": ["runningApps"],
+      "centerBeforeClock": ["workspaces", "notifications", "wallpapers", "controlCenter", "clipboard", "language"],
+      "centerAfterClock": [],
+      "right": ["tray", "codex", "cpu", "gpu", "network"]
+    }
+  },
+  "codexGlass": {
+    "enabled": true
+  }
+}

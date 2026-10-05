@@ -1,0 +1,12 @@
+{
+  "id": "codexGlass",
+  "name": "Codex для Glass",
+  "description": "Залишок тижневого ліміту OpenAI Codex із OMP",
+  "version": "1.0.0",
+  "author": "rudi",
+  "type": "widget",
+  "capabilities": ["dankbar-widget"],
+  "component": "./CodexBar.qml",
+  "requires_dms": ">=1.6.2",
+  "permissions": []
+}

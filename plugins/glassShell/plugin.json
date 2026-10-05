@@ -1,0 +1,15 @@
+{
+  "id": "glassShell",
+  "name": "DMS Glass",
+  "description": "Меню програм, робочі столи та шпалери",
+  "version": "1.0.0",
+  "author": "rudi",
+  "type": "composite",
+  "capabilities": ["daemon"],
+  "components": {
+    "daemon": "./GlassDaemon.qml"
+  },
+  "settings": "./GlassSettings.qml",
+  "requires_dms": ">=1.6.2",
+  "permissions": ["settings_read", "settings_write"]
+}
