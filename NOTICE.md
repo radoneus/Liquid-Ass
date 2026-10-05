@@ -1,0 +1,9 @@
+# Third-party attribution
+
+This repository contains adaptations and modifications, not three original selector designs. Copyright in upstream work remains with its respective authors. The repository's `LICENSE` covers the original contributions and modifications; existing notices must be retained when redistributing adapted portions.
+
+Integration code, selector rework and documentation were developed with AI assistance under the user's direction. AI assistance is not a claim of copyright over the cited upstream projects.
+
+- **Skwd**, © 2025–2026 liixini — MIT License: https://github.com/liixini/skwd/blob/main/LICENSE . The application launcher and its card/settings presentation were adapted from Skwd's `skwd-launch` and `skwd-settings`; the workspace selector's visual interaction was based on Skwd's window switcher, but selects Hyprland workspaces instead. The full Skwd MIT notice is also retained at the top of `plugins/glassShell/LauncherSelector.qml`, `LauncherTile.qml` and `LauncherSettings.qml`.
+- **Wallpaper Carousel**, by yngwe / motor-dev — its manifest declares MIT: https://github.com/motor-dev/wallpaperCarousel/blob/main/manifest.json . The wallpaper selector was adapted from the skewed-carousel approach; the upstream project credits the original wallpaper picker by ilyamiro: https://github.com/ilyamiro/nixos-configuration . This repository does not include the upstream Wallpaper Carousel plugin or its images.
+- **DankMaterialShell**, © 2025 Avenge Media LLC — MIT License: https://github.com/AvengeMedia/DankMaterialShell/blob/master/LICENSE . Glass integrates with installed DMS APIs and uses native DMS widgets at runtime; it does not bundle the upstream shell.
